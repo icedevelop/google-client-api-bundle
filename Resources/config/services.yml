@@ -1,0 +1,8 @@
+services:
+    retItalia\GoogleClientApiBundle\GSuiteClient:
+        public: true
+        autowire: true
+        #arguments: ['%google_credentials_location%', '%google_token_location%']
+#    ret_italia_google_client_api.example:
+#        class: retItalia\GoogleClientApiBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

@@ -1,0 +1,24 @@
+{
+  "name": "retitalia/google-client-api-bundle",
+  "type": "symfony-bundle",
+  "description": "This bundle implements a google client api",
+  "keywords": ["google", "api"],
+  "homepage": "https://github.com/RetItaliaSpA/GoogleClientApi",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.5.9",
+    "retitalia/authentication-bundle": "^1.3",
+    "google/apiclient": "^2.0"
+  },
+  "authors": [
+    {
+      "name": "Gianluca Mongelli",
+      "email": "gianluca.mongelli@gmail.com"
+    }
+  ],
+  "autoload":{
+    "psr-4":{
+      "retItalia\\GoogleClientApiBundle\\": ""
+    }
+  }
+}
