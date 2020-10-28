@@ -1,5 +1,5 @@
 {
-  "name": "retitalia/google-client-api-bundle",
+  "name": "icedevelop/google-client-api-bundle",
   "type": "symfony-bundle",
   "description": "This bundle implements a google client api",
   "keywords": ["google", "api"],
